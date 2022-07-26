@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="C:\Users\Admin\Desktop\web2\day3\New folder\logo.svg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js">
+</script>
+<title>About us</title>
+<style>
+	h1 {
+    font-family: 'Prata', serif;
+    padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 100px;
+
+
+  }
+  p {
+	padding-top: 10px;
+	padding-bottom: 30px;
+	font-family: 'Inter', sans-serif;
+  text-align: center;
+	}
+
+	h2 {
+	font-family: 'Prata', serif;
+  padding-top: 50px;
+	}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+	}
+  h3 {
+  font-family: 'Prata', serif;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  font-size: 16pt;
+
+  }
+   {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="index.html">
+    <img src="New folder\logo.svg" alt="logo" style="width:40px;">
+  </a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav ml-auto"> <!-- just giving a left margin here -->
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="aboutusd3.html">About us</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="galleryd3.html">Gallery</a>
+    </li>
+      <li class="nav-item">
+      <a class="nav-link" href="contactd3.html">Contact</a>
+    </li>
+  </ul>
+</nav>
+
+<!-- Carousel code starts here -->
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="New folder\x2.jpg" width="1100" height="500">
+      <div class="carousel-caption">
+        <h1>SUPERONDA</h1>
+        <p>by Archizoom Associati </p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="New folder\x1.jpg" width="1100" height="500">
+      <div class="carousel-caption">
+        <h1>S.C.A.L. DAYBED</h1>
+        <p>by Jean Prouvé & Charlotte Perriand, 1950s</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="New folder\x3.jpg" width="1100" height="500">
+      <div class="carousel-caption">
+        <h1>SUPERONDA</h1>
+        <p>by Archizoom Associati </p>       
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="New folder\1.jpg" style="width:100%">
+    <h3>Grand Relax & Ottoman</h3>
+    <p>Antonio Citterio</p>
+    <img src="New folder\2.jpg" style="width:100%">
+    <h3>Chaise Tout Bois</h3>
+    <p>Jean Prouvé</p>
+    
+    <img src="New folder\30.jpg" 
+    style="width:100%">
+    <h3>Cité</h3>
+    <p>Jean Prouvé</p>
+    <img src="New folder\3.jpg" style="width:100%">
+    <h3>Soft Seats type A</h3>
+    <img src="New folder\4.jpg" style="width:100%">
+    <h3>HAL Lounge Chair & Ottoman</h3>
+    <p>Jasper Morrison</p>
+    <img src="New folder\6.jpg" style="width:100%">
+    <h3>Toolbox RE</h3>
+    <p>Arik Levy</p>
+    <img src="New folder\5.jpg" style="width:100%">
+    <h3>Uten.Silo RE I</h3>
+    <p>Dorothee Becker</p>
+  </div>
+  <div class="column">
+    <img src="New folder\7.jpg" style="width:100%">
+    <h3>HAL Soft Tube</h3>
+    <p>Jasper Morrison</p>
+    <img src="New folder\8.jpg" style="width:100%">
+    <h3>Elephant Pad</h3>
+    <p>Hella Jongerius</p>
+    <img src="New folder\29.jpg" style="width:100%">
+     <h3>Table Solvay</h3>
+    <p>Jean Prouvé</p>
+    <img src="New folder\28.jpg" style="width:100%">
+     <h3>Standard</h3>
+    <p>Jean Prouvé</p>
+    <img src="New folder\9.jpg" style="width:100%">
+     <h3>Panton Chair</h3>
+    <p>Verner Panton</p>
+    <img src="New folder\10.jpg" style="width:100%">
+     <h3>Vases Découpage, Boucle</h3>
+    <p>Ronan & Erwan Bouroullec</p>
+  </div>  
+  <div class="column">
+    <img src="New folder\12.jpg" style="width:100%">
+     <h3>Physix</h3>
+    <p>Alberto Meda</p>
+    <img src="New folder\11.jpg" style="width:100%">
+     <h3>Suita 3-Seater, tufted</h3>
+    <p>Antonio Citerrio</p>
+    <img src="New folder\13.jpg" style="width:100%">
+     <h3>L'Oiseau</h3>
+    <p>Ronan & Erwan Bouroullec</p>
+    <img src="New folder\14.jpg" style="width:100%">
+    <h3>Eames Elephant (Plywood, grey)</h3>
+    <p>Charles & Ram Eames</p>
+    <img src="New folder\15.jpg" style="width:100%">
+    <h3>Locker Box</h3>
+    <p>Kstantin Grcic</p>
+    <img src="New folder\16.jpg" style="width:100%">
+    <h3>Uten.Silo RE II</h3>
+    <p>Dorothee Becker</p>
+    <img src="New folder\17.jpg" style="width:100%">
+    <h3>Keyring - Elephant</h3>
+    <p>Hella Jongerius</p>
+  </div>
+  <div class="column">
+    <img src="New folder\18.jpg" style="width:100%">
+    <h3>Mariposa Corner</h3>
+    <p>Edward Barber & Jay Osgerby</p>
+    <img src="New folder\19.jpg" style="width:100%">
+    <h3>Moca</h3>
+    <p>Jasper Morrison</p>
+    <img src="New folder\20.jpg" style="width:100%">
+    <h3>Metal Side Tables Outdoor</h3>
+    <p>Ronan & Erwan Bouroullec</p>
+    <img src="New folder\21.jpg" style="width:100%">
+    <h3>Miniatures Tip Ton</h3>
+    <p>Edward Barber & Jay Osgerby</p>
+    <img src="New folder\22.jpg" style="width:100%">
+    <h3>Vases Découpage, Disque</h3>
+    <p>Ronan & Erwan Bouroullec</p>
+    <img src="New folder\23.jpg" style="width:100%">
+    <h3>Soft Seats type B</h3>
+  </div>
+</div>
+
+</body>
+</html>
